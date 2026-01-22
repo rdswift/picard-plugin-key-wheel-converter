@@ -269,12 +269,10 @@ def enable(api: PluginApi):
     api.register_script_function(
         func_key2camelot,
         name='key2camelot',
+        signature=api.tr('help.key2camelot.signature', "$key2camelot(key)"),
         documentation=api.tr(
-            'help.key2camelot',
-            (
-                "`$key2camelot(key)`\n\n"
-                "Returns the key string `key` in camelot key format."
-            )
+            'help.key2camelot.documentation',
+            "Returns the key string `key` in camelot key format."
         )
         + "\n\n" + standard_note,
     )
@@ -282,12 +280,10 @@ def enable(api: PluginApi):
     api.register_script_function(
         func_key2openkey,
         name='key2openkey',
+        signature=api.tr('help.key2openkey.signature', "$key2openkey(key)"),
         documentation=api.tr(
-            'help.key2openkey',
-            (
-                "`$key2openkey(key)`\n\n"
-                "Returns the key string `key` in open key format."
-            )
+            'help.key2openkey.documentation',
+            "Returns the key string `key` in open key format."
         )
         + "\n\n" + standard_note,
     )
@@ -295,10 +291,10 @@ def enable(api: PluginApi):
     api.register_script_function(
         func_key2standard,
         name='key2standard',
+        signature=api.tr('help.key2standard.signature', "$key2standard(key[,symbols])"),
         documentation=api.tr(
-            'help.key2standard',
+            'help.key2standard.documentation',
             (
-                "`$key2standard(key[,symbols])`\n\n"
                 "Returns the key string `key` in standard key format. If the optional argument "
                 "`symbols` is set, then the '♭' and '#' symbols will be used, rather than "
                 "spelling out '-Flat' and '-Sharp'."
@@ -310,12 +306,10 @@ def enable(api: PluginApi):
     api.register_script_function(
         func_key2traktor,
         name='key2traktor',
+        signature=api.tr('help.key2traktor.signature', "$key2traktor(key)"),
         documentation=api.tr(
-            'help.key2traktor',
-            (
-                "`$key2traktor(key)`\n\n"
-                "Returns the key string `key` in traktor key format."
-            )
+            'help.key2traktor.documentation',
+            "Returns the key string `key` in traktor key format."
         )
         + "\n\n" + standard_note,
     )

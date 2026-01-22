@@ -1,9 +1,7 @@
 uuid = "acc16641-5c1d-4589-9909-e411f816e3fb"
 name = "Key Wheel Converter"
 authors = ["Bob Swift"]
-description = """
-Adds functions to convert between 'standard', 'camelot', 'open key' and 'traktor' key formats.
-"""
+description = "Adds functions to convert between 'standard', 'camelot', 'open key' and 'traktor' key formats."
 api = ['3.0']
 license = "GPL-2.0"
 license_url = "https://www.gnu.org/licenses/gpl-2.0.txt"
