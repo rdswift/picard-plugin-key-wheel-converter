@@ -18,3 +18,4 @@ The `key` argument can be entered in any of the supported formats, such as '2B' 
 """
 categories = ["scripting"]
 homepage = "https://picard-plugins-user-guides.readthedocs.io/en/latest/key_wheel_converter/user_guide.html"
+report_bugs_to = "https://github.com/rdswift/picard-plugin-key-wheel-converter/issues"
