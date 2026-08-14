@@ -11,3 +11,7 @@ It adds four new scripting functions:
 The `key` argument can be entered in any of the supported formats, such as '2B' (camelot), '6d' (open key), 'A♭ Minor' (standard with symbols), 'A-Flat Minor' (standard with text) or 'C#' (traktor).  If the `key` argument is not recognized as one of the standard keys in the supported formats, then an empty string will be returned.
 
 Please see the [User Guide](https://picard-plugins-user-guides.readthedocs.io/en/latest/key_wheel_converter/user_guide.html) for more information, including usage examples.
+
+## Contributing
+
+Please see the [Contribution Guidelines for MusicBrainz Picard Plugins](https://github.com/metabrainz/picard-plugins-registry/blob/main/PLUGIN_CONTRIBUTING.md) on how to help with development of this plugin.
